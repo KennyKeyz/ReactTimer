@@ -1,4 +1,6 @@
 var React = require('react');
+
+
 var {Link,IndexLink} = require('react-router');
 
 
@@ -18,7 +20,7 @@ var Nav = React.createClass({
 
               </li>
               <li>
-                <Link to="/about" activeClassName="active" activeStyle={{fontWeight:'bold'}}>Count Down</Link>
+                <Link to="/countdown" activeClassName="active" activeStyle={{fontWeight:'bold'}}>Count Down</Link>
 
               </li>
 

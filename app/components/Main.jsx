@@ -13,8 +13,8 @@ var Main =(props) => {
         <div>
           <div>
           <Nav />
-
-          {props.children}
+          <h1>main rendered</h1>
+        {props.children}
         </div>
       </div>
     </div>
