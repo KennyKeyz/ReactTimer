@@ -20,7 +20,7 @@ var Countdown = React.createClass({
           this.setState({count: 0});
         case 'paused':
           clearInterval(this.timer)
-          this.timer = undefined; //cleans up the variable
+          this.timer = undefined;
           break;
       }
     }
@@ -62,6 +62,7 @@ var Countdown = React.createClass({
 
     return (
       <div>
+        <h1 className="page-title">Countdown App</h1>
         <Clock totalSeconds={count}/>
         {renderControlArea()}
       </div>

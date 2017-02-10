@@ -14,7 +14,7 @@ var Main =(props) => {
                   <div className="column small-centered medium-6 large-4">
 
 
-          <h1>main rendered</h1>
+        
         {props.children}
         </div>
       </div>
